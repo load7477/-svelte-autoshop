@@ -1,0 +1,2 @@
+# -svelte-autoshop
+svelte
