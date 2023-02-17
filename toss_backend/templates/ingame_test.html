@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<script>
+    console.log('aaa')
+    alert('aaa')
+</script>
+<body>
+    <div class="img_popup">
+        <img src="https://media.discordapp.net/attachments/1056965287414607945/1061223013485395968/forcus.gif.gif?width=349&height=346" width="64" height="64">
+    </div>
+    <div class="huwon_main_popup">
+        <a class="huwon"><span id="name">{{name}}</span>님이 <span id="amount">{{amount}}</span>원 후원♥</a>
+    </div>
+    <div class="sub_popup">
+        <a class="sub"><span id="subtitle">좋은 서버 만들어주셔서 감사합니다 관리자분들 !</span></a>
+    </div>
+</body>
+
+<style>
+    body {background-image: url(https://th.bing.com/th/id/OIP.NXMZLBBxEG51txpt3zS2lgHaEK?pid=ImgDet&rs=1); background-size: cover;}
+
+    /* 팝업 */
+    .img_popup {margin-top: 200px;margin-left: 160px;}
+    .huwon_main_popup {margin-top: 10px; margin-left: 150px;}
+    .sub_popup {margin-top: 10px; margin-left: 80px;}
+
+    /* 기타 */
+    img {margin-left: 50px;}
+    a {color: white}
+
+    /* 이름, 입금액 */
+    #name {color:yellow}
+    #amount {color:yellow}
+</style>
+</html>
